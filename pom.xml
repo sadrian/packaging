@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sadriu</groupId>
-    <artifactId>package</artifactId>
+    <artifactId>packaging</artifactId>
     <version>1.0.0</version>
 
     <properties>
