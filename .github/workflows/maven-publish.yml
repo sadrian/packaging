@@ -15,6 +15,6 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Publish package
-        run: mvn --batch-mode deploy
+        run: mvn --batch-mode deploy -Dmaven.resolver.transport=wagon # important for maven >=3.9.0, otherwise 400
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
